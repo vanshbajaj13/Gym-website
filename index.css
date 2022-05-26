@@ -1,0 +1,122 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  overflow: auto;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bolder;
+}
+.name {
+  background-color: rgb(255, 123, 0);
+  height: 200px;
+}
+.header {
+  height: max-content;
+  background-color: rgb(255, 123, 0);
+  color: wheat;
+  /* border: 3px solid red; */
+  /* border-radius: 20px; */
+}
+.nav {
+  width: fit-content;
+  height: fit-content;
+  /* border: 3px solid pink; */
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 4px;
+  text-align: center;
+}
+.left img {
+  padding-top: 7px;
+  width: 66px;
+}
+.mid {
+  display: block;
+  width: 70%;
+  margin: auto;
+  height: fit-content;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 3px;
+  top: 203px;
+}
+#main {
+  height: 1955px;
+}
+.img {
+  background-image: url("/Gym-website/bgimage.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: wheat;
+}
+.nav ul li {
+  text-indent: 50px;
+  margin-left: 26px;
+  font-size: 20px;
+  display: inline-block;
+}
+.right a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 20px;
+}
+.nav a:active,
+.nav a:hover {
+  text-decoration: underline;
+  color: rgb(233, 202, 145);
+}
+.btn {
+  display: inline-block;
+  position: fixed;
+  left: 1200px;
+  top: 543px;
+  background-color: transparent;
+  /* border: 3px solid black; */
+  border-radius: 50%;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.btn img {
+  margin-top: 5px;
+  width: 28px;
+}
+.btn:hover {
+  filter: invert();
+}
+.frm {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px 50px;
+  width: 43%;
+}
+.form-group {
+  padding: 3px;
+  width: 350px;
+  margin: 10px auto;
+}
+.form-group input {
+  width: 300px;
+  text-align: center;
+  background-color: transparent;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bolder;
+  border-radius: 13px;
+}
+.submit-btn {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bolder;
+  background-color: transparent;
+  display: block;
+  border-radius: 12px;
+  margin: 5px auto;
+}
+.frm h2 {
+  text-align: center;
+}
