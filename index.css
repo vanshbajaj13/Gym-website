@@ -8,6 +8,9 @@
 .name {
   background-color: tomato;
   height: 200px;
+  font-size: 5rem;
+  text-align: center;
+  color: wheat;
 }
 .header {
   height: max-content;
